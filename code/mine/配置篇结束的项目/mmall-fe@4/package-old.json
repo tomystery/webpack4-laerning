@@ -1,0 +1,50 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.1",
+  "description": "mmall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "dist": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:happymmall/mmall-fe.git"
+  },
+  "author": "Rosen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "glob-all": "^3.1.0",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^2.0.0",
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.9",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^4.28.4",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "4.1.5"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan.js": "^3.0.2",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.5.0"
+  }
+}

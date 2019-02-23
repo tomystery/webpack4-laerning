@@ -1,0 +1,9 @@
+body{
+    background: green;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    background: url("./2.png") no-repeat;
+}

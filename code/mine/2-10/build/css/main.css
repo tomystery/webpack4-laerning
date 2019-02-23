@@ -1,0 +1,9 @@
+body{
+    background: green;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    background: url(http://www.zhifu.cn/ca7dcd2cfb27c6ff7e454eb7b09ddcfc.png) no-repeat;
+}

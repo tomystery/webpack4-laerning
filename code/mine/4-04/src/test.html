@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+let a= (function (modules) { // webpackBootstrap
+        // The module cache
+        var installedModules = {};
+
+        // The require function
+        function __webpack_require__(moduleId) {
+
+            // Check if module is in cache
+            if (installedModules[moduleId]) {
+                return installedModules[moduleId].exports;
+            }
+            // Create a new module (and put it into the cache)
+            var module = installedModules[moduleId] = {
+                i: moduleId,
+                l: false,
+                exports: {}
+            };
+
+            // Execute the module function
+            modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+
+            // Flag the module as loaded
+            module.l = true;
+
+            // Return the exports of the module
+            return module.exports;
+        }
+
+        // Load entry module and return exports
+        return __webpack_require__(__webpack_require__.s = "./src/test.js");
+    })
+    /************************************************************************/
+    ({
+
+        /***/
+        "./src/test.js":
+            /*!*********************!*\
+             !*** ./src/test.js ***!
+             \*********************/
+            /*! no static exports found */
+            /***/
+            (function (module, exports) {
+
+                eval("module.exports=\"2fpx\"\n\n\n//# sourceURL=webpack:///./src/test.js?");
+
+                /***/
+            })
+
+    });
+
+    console.log(a)
+
+    //直接运行这个文件，但是我们不能每次都这样 先let一下，再输出，这样子很麻烦。
+</script>
+
+</html>
